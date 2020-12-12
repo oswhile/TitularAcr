@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('TA/input_concat(id(, , vtacreditadofrmTitulari_ece
 
 WebUI.click(findTestObject('TA/li_MINISTERIO DE ECONOMIA Y FINANZAS PUBLICAS'))
 
-WebUI.delay(30)
+WebUI.delay(40)
 
 WebUI.setText(findTestObject('TA/input_Nro.Doc._vtacreditadofrmTitularj_idt459'), '1234')
 
