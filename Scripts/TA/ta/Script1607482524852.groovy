@@ -85,7 +85,7 @@ WebUI.click(findTestObject('TA/span_Estado_ui-chkbox-icon ui-icon ui-icon-_f2a71
 
 WebUI.click(findTestObject('TA/span_Guardar2'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('TA/span_Agregar Documento Adjunto'))
 
