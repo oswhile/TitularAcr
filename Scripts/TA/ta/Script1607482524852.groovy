@@ -1,4 +1,3 @@
-
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -63,6 +62,18 @@ WebUI.click(findTestObject('TA/span_Fecha Solicitud_ui-button-icon-left ui_756af
 WebUI.click(findTestObject('TA/a_1'))
 
 WebUI.setText(findTestObject('TA/input_Nombre MAE_vtacreditadoj_idt661'), 'OSCAR')
+
+WebUI.click(findTestObject('Page_SISTEMA DE CONTROL DE FIRMAS AUTORIZADAS -/span_Firma Digital_ui-radiobutton-icon ui-icon ui-icon-bullet ui-c'))
+
+WebUI.setText(findTestObject('Page_SISTEMA DE CONTROL DE FIRMAS AUTORIZADAS -/input_Desde_vtacreditadoj_idt673_input'), 
+    '01/12/2020')
+
+WebUI.setText(findTestObject('Page_SISTEMA DE CONTROL DE FIRMAS AUTORIZADAS -/input_Hasta_vtacreditadoj_idt675_input'), 
+    '31/12/2020')
+
+WebUI.click(findTestObject('Page_SISTEMA DE CONTROL DE FIRMAS AUTORIZADAS -/span_Seleccionar..._ui-icon ui-icon-triangle-1-s ui-c'))
+
+WebUI.click(findTestObject('Page_SISTEMA DE CONTROL DE FIRMAS AUTORIZADAS -/li_VIGENTE'))
 
 WebUI.click(findTestObject('TA/span_Guardar1'))
 
