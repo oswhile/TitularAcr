@@ -35,7 +35,7 @@ WebUI.click(findTestObject('TA/li_MINISTERIO DE ECONOMIA Y FINANZAS PUBLICAS'))
 
 WebUI.delay(40)
 
-WebUI.setText(findTestObject('TA/input_Nro.Doc._vtacreditadofrmTitularj_idt459'), '1234')
+WebUI.setText(findTestObject('TA/input_Nro.Doc._vtacreditadofrmTitularj_idt459'), pa_nro_doc)
 
 WebUI.click(findTestObject('TA/span_Seleccionar..._ui-icon ui-icon-triangl_d1b480'))
 
@@ -53,23 +53,19 @@ WebUI.click(findTestObject('TA/li_CUENTA CORRIENTE FISCAL'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('TA/input_Denominacin_vtacreditadoj_idt656'), 'DENO')
+WebUI.setText(findTestObject('TA/input_Denominacin_vtacreditadoj_idt656'), pa_deno)
 
-WebUI.setText(findTestObject('TA/input_Hoja de Ruta_vtacreditadoj_idt658'), 'HR-1')
+WebUI.setText(findTestObject('TA/input_Hoja de Ruta_vtacreditadoj_idt658'), pa_hr)
 
-WebUI.click(findTestObject('TA/span_Fecha Solicitud_ui-button-icon-left ui_756afc'))
-
-WebUI.click(findTestObject('TA/a_1'))
+WebUI.setText(findTestObject('TA/input_Fecha Solicitud_vtacreditadocal_input'), pa_fecha_hr)
 
 WebUI.setText(findTestObject('TA/input_Nombre MAE_vtacreditadoj_idt661'), 'OSCAR')
 
 WebUI.click(findTestObject('TA/span_Firma Digital_ui-radiobutton-icon ui-icon ui-icon-bullet ui-c'))
 
-WebUI.setText(findTestObject('TA/input_Desde_vtacreditadoj_idt673_input'), 
-    '01/12/2020')
+WebUI.setText(findTestObject('TA/input_Desde_vtacreditadoj_idt673_input'), pa_desde)
 
-WebUI.setText(findTestObject('TA/input_Hasta_vtacreditadoj_idt675_input'), 
-    '31/12/2020')
+WebUI.setText(findTestObject('TA/input_Hasta_vtacreditadoj_idt675_input'), pa_hasta)
 
 WebUI.click(findTestObject('TA/span_Seleccionar..._ui-icon ui-icon-triangle-1-s ui-c'))
 
@@ -91,13 +87,13 @@ WebUI.click(findTestObject('TA/span_Agregar Documento Adjunto'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('TA/input_Nro Documento_frmDocumentosj_idt892'), '123')
+WebUI.setText(findTestObject('TA/input_Nro Documento_frmDocumentosj_idt892'), pa_nro)
 
 WebUI.click(findTestObject('TA/span_Seleccionar..._ui-icon ui-icon-triangl_d1b480_1_2'))
 
 WebUI.click(findTestObject('TA/li_COPIA SIMPLE DOCUMENTO DE IDENTIDAD'))
 
-WebUI.setText(findTestObject('TA/textarea_Detalle_frmDocumentosj_idt897'), '123')
+WebUI.setText(findTestObject('TA/textarea_Detalle_frmDocumentosj_idt897'), pa_detalle)
 
 WebUI.click(findTestObject('TA/span_Guardar3'))
 
